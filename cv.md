@@ -32,3 +32,38 @@ I am married, and I have two pretty daughters.
 I am looking for a job as a Junior Frontend developer. I may work fast, effective and for command interest.
 
 I think, If I work in company, I must do all possible for company and result.
+
+---
+
+### My skills
+
+* Well
+    * HTML5, CSS3
+    * JavaScript Basic
+    * Git
+    * SASS (SCSS), Stylus
+    * VS Code, Sublime
+    * Figma, Photoshop
+    * Bitrix Framework
+* A little
+    * PHP
+    * MySQL
+    * Bootstrap
+    * JQuery
+    * Server administration: nginx, CentOS 7, BitrixVM
+
+---
+
+### Code example
+
+Description of task (from codewars.com): Given an array (arr) as an argument complete the function countSmileys that should return the total number of smiling faces.
+
+```
+countSmileys = (arr) => {
+  let result = 0;
+  arr.forEach(item => {
+    if (/[;:][~-]?[)D]/.test(item)) ++result;
+  });
+  return result;
+};
+```
