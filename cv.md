@@ -1,5 +1,10 @@
 # Denis Volkov
 ### Frontend Developer
+
+---
+
+![My photo](me.jpg)
+
 ---
 ### Contact
 
