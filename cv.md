@@ -67,3 +67,23 @@ countSmileys = (arr) => {
   return result;
 };
 ```
+
+---
+
+## My experience and projects
+
+* Site [The Locus Consept](https://locusconcept.ru/) (HTML, SCSS, JS, Bitrix Framework, Design in Figma)
+    * [Code on GitHub](https://github.com/DanFeliz/Locus-Concept.git)
+* Site [Keramin](https://keramin-neva.ru/) (HTML, SCSS, JS, Bitrix Framework, Design in Figma)
+* Site [Clean Wheels](https://clean-wheels.ru/) (HTML, SCSS, JS, Bitrix Framework, Design in Figma)
+
+---
+
+### Education
+
+* Kemerovo State University of Culture and Arts, Faculty of Information Technology, specialty - IT analyst, specialization - information systems and networks.
+
+### Languages
+
+* English - B1 (Intermediate). I can read text and docs in English and I can comunicate on simple topics. I undestand text good, but I undestand audio spech badly.
+* Russian - native.
