@@ -25,7 +25,7 @@ I know html and css very well and I am learning js very active. I have made more
 
 I have design experience in Figma and Photoshop.
 
-My hobbies are cars, sport ( travels, play guitar and I like video games.
+My hobbies are cars, sport, travels, play guitar and I like video games.
 
 I am married, and I have two pretty daughters.
 
