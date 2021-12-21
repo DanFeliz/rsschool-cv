@@ -1,0 +1,94 @@
+# Denis Volkov
+### Frontend Developer
+
+---
+
+![My photo](me.jpg)
+
+---
+### Contact
+
+Phone: **+7 928 88 111 79**
+
+E-mail: **dvolkov142@gmail.com**
+
+Telegram: **@DanFeliz**
+
+GitHub: [**DanFeliz**](https://github.com/DanFeliz/)
+
+[Linkedin](https://www.linkedin.com/in/denis-volkov-1673b9228/)
+
+---
+
+### About me
+
+I worked as a sales manager until I was 33, but website development has been my hobby always.
+
+Two years ago I had decided completely to become IT development.
+
+I know html and css very well and I am learning js very active. I have made more than 30 websites. I used HTML5, CSS3, a little JS and different CMS.
+
+I have design experience in Figma and Photoshop.
+
+My hobbies are cars, sport, travels, play guitar and I like video games.
+
+I am married, and I have two pretty daughters.
+
+I am looking for a job as a Junior Frontend developer. I may work fast, effective and for command interest.
+
+I think, If I work in company, I must do all possible for company and result.
+
+---
+
+### My skills
+
+* Well
+    * HTML5, CSS3
+    * JavaScript Basic
+    * Git
+    * SASS (SCSS), Stylus
+    * VS Code, Sublime
+    * Figma, Photoshop
+    * Bitrix Framework
+* A little
+    * PHP
+    * MySQL
+    * Bootstrap
+    * JQuery
+    * Server administration: nginx, CentOS 7, BitrixVM
+
+---
+
+### Code example
+
+Description of task (from codewars.com): Given an array (arr) as an argument complete the function countSmileys that should return the total number of smiling faces.
+
+```
+countSmileys = (arr) => {
+  let result = 0;
+  arr.forEach(item => {
+    if (/[;:][~-]?[)D]/.test(item)) ++result;
+  });
+  return result;
+};
+```
+
+---
+
+## My experience and projects
+
+* Site [The Locus Consept](https://locusconcept.ru/) (HTML, SCSS, JS, Bitrix Framework, Design in Figma)
+    * [Code on GitHub](https://github.com/DanFeliz/Locus-Concept.git)
+* Site [Keramin](https://keramin-neva.ru/) (HTML, SCSS, JS, Bitrix Framework, Design in Figma)
+* Site [Clean Wheels](https://clean-wheels.ru/) (HTML, SCSS, JS, Bitrix Framework, Design in Figma)
+
+---
+
+### Education
+
+* Kemerovo State University of Culture and Arts, Faculty of Information Technology, specialty - IT analyst, specialization - information systems and networks.
+
+### Languages
+
+* English - B1 (Intermediate). I can read text and docs in English and I can comunicate on simple topics. I undestand text good, but I undestand audio spech badly.
+* Russian - native.
