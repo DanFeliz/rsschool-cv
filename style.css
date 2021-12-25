@@ -8,11 +8,11 @@
     --text-color: #37b445;
 }
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
     font-family: "Press Start 2P", sans-serif;
     font-size: 12px;
     line-height: 2;
+    background: var(--bg-color);
+    color: var(--text-color);
 }
 
 code {
@@ -45,10 +45,10 @@ li {
 }
 
 .wrapper {
-    width: 980px;
-    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
+    margin: 20px auto;
+    width: 980px;
 }
 
 header,
@@ -69,8 +69,8 @@ nav ul li {
 }
 
 aside {
-    width: 350px;
     margin-right: 40px;
+    width: 350px;
 }
 
 aside img {
@@ -91,17 +91,21 @@ main {
 }
 
 main ul {
-    list-style: square;
     margin-left: 16px;
+    list-style: square;
 }
 
 .code-con {
-    background-color: var(--bg2-color);
     padding: 20px 40px;
     margin: 30px 0;
+    background-color: var(--bg2-color);
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 30px;
     background-color: var(--bg2-color);
-    padding: 40px 60px;
 }
