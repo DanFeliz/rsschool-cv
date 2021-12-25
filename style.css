@@ -95,6 +95,10 @@ main ul {
     list-style: square;
 }
 
+.about-me__h2 {
+    margin-top: 0;
+}
+
 .code-con {
     padding: 20px 40px;
     margin: 30px 0;
