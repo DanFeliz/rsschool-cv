@@ -4,6 +4,7 @@
 }
 :root {
     --bg-color: #13151a;
+    --bg2-color: #23350b;
     --text-color: #37b445;
 }
 body {
@@ -11,7 +12,13 @@ body {
     color: var(--text-color);
     font-family: "Press Start 2P", sans-serif;
     font-size: 12px;
+    line-height: 2;
 }
+
+code {
+    font-family: "Press Start 2P", sans-serif;
+}
+
 a {
     color: var(--text-color);
 }
@@ -25,19 +32,44 @@ ul {
 }
 
 p {
-    line-height: 1.5;
+    margin: 10px 0;
+}
+
+h1,
+h2 {
+    margin: 20px 0;
+}
+
+li {
     margin: 10px 0;
 }
 
 .wrapper {
     width: 980px;
-    margin: 40px auto;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
 }
 
+header,
+footer,
+nav {
+    width: 980px;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
 aside {
-    width: 300px;
+    width: 350px;
     margin-right: 40px;
 }
 
@@ -45,10 +77,31 @@ aside img {
     filter: sepia(10) saturate(1.5) hue-rotate(80deg);
 }
 
+.skills__persent {
+    padding: 0 5px;
+    box-sizing: border-box;
+    margin: 5px 0 20px 0;
+    font-size: 8px;
+    color: var(--text-color);
+    background: var(--bg2-color);
+}
+
 main {
-    width: 640px;
+    width: 590px;
+}
+
+main ul {
+    list-style: square;
+    margin-left: 16px;
+}
+
+.code-con {
+    background-color: var(--bg2-color);
+    padding: 20px 40px;
+    margin: 30px 0;
 }
 
 footer {
-    width: 100%;
+    background-color: var(--bg2-color);
+    padding: 40px 60px;
 }

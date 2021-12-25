@@ -16,13 +16,26 @@
 
 <body>
     <div class="wrapper">
+        <header>
+            <h1>Denis Volkov // FE / JS Developer</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="Skills">Skills</a></li>
+                <li><a href="Code example">Code example</a></li>
+                <li><a href="Experience">Experience</a></li>
+                <li><a href="Education">Education</a></li>
+            </ul>
+        </nav>
         <aside>
-            <h2>Photo</h2>
-            <img src="./me.jpg" alt="me photo (Denis Volkov)">
+            <p>
+                <img src="./images/me.jpg" alt="me photo (Denis Volkov)">
+            </p>
             <h2>Contacts</h2>
             <ul>
                 <li><span>Phone:</span> <a href="tel:+79288811179">+7 928 88 111 79</a></li>
-                <li><span>E-mail</span> <a href="mailto:dvolkov142@gmail.com">dvolkov142@gmail.com</a></li>
+                <li><span>E-mail:</span> <a href="mailto:dvolkov142@gmail.com">dvolkov142@gmail.com</a></li>
                 <li><span>Telegram:</span> <a href="https://t.me/DanFeliz">@DanFeliz</a></li>
                 <li><span>GitHub:</span> <a href="https://github.com/DanFeliz/">DanFeliz</a></li>
                 <li><span>Linkedin: </span> <a
@@ -30,51 +43,60 @@
             </ul>
             <h2>Skills</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>SASS (SCSS)</li>
-                <li>Stylus</li>
-                <li>VS Code, Sublime</li>
-                <li>Figma</li>
-                <li>Photoshop</li>
-                <li>Bitrix Framework</li>
-                <li>PHP</li>
-                <li>MySQL</li>
-                <li>Bootstrap</li>
-                <li>JQuery</li>
-                <li>Server administration: nginx, CentOS 7, BitrixVM</li>
+                <li>HTML5
+                    <div class="skills__persent" style="width: 97%;">97%</div>
+                </li>
+                <li>CSS3
+                    <div class="skills__persent" style="width: 87%;">87%</div>
+                </li>
+                <li>JavaScript
+                    <div class="skills__persent" style="width: 63%;">63%</div>
+                </li>
+                <li>SASS (SCSS)
+                    <div class="skills__persent" style="width: 75%;">75%</div>
+                </li>
+                <li>Stylus
+                    <div class="skills__persent" style="width: 74%;">74%</div>
+                </li>
+                <li>VS Code, Sublime
+                    <div class="skills__persent" style="width: 82%;">82%</div>
+                </li>
+                <li>Figma
+                    <div class="skills__persent" style="width: 86%;">86%</div>
+                </li>
+                <li>Photoshop
+                    <div class="skills__persent" style="width: 42%;">42%</div>
+                </li>
+                <li>Bitrix Framework
+                    <div class="skills__persent" style="width: 37%;">37%</div>
+                </li>
+                <li>PHP
+                    <div class="skills__persent" style="width: 32%;">32%</div>
+                </li>
+                <li>MySQL
+                    <div class="skills__persent" style="width: 25%;">25%</div>
+                </li>
+                <li>Bootstrap
+                    <div class="skills__persent" style="width: 32%;">32%</div>
+                </li>
+                <li>JQuery
+                    <div class="skills__persent" style="width: 48%;">48%</div>
+                </li>
+                <li>CentOS 7 (nginx, BitrixVM)
+                    <div class="skills__persent" style="width: 24%;">24%</div>
+                </li>
             </ul>
 
             <h2>Languages</h2>
             <ul>
-                <li>English - B1 (Intermediate). I can read text and docs in English and I can comunicate on simple
-                    topics.
-                    I
-                    undestand text good, but I undestand audio spech badly.</li>
-                <li>Russian - native.</li>
+                <li>English - B1 (Intermediate)
+                </li>
+                <li>Russian - native</li>
             </ul>
         </aside>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="Home"></a></li>
-                    <li><a href="About me"></a></li>
-                    <li><a href="Skills"></a></li>
-                    <li><a href="Code example"></a></li>
-                    <li><a href="Experience"></a></li>
-                    <li><a href="Education"></a></li>
-                </ul>
-            </nav>
 
-            <div class="contacts">
-
-
-            </div>
-        </header>
         <main>
-            <h1>Denis Volkov</h1>
-            <h2>FE / JS Developer</h2>
+
 
             <p>I worked as a sales manager until I was 33, but website development has been my hobby always.</p>
 
@@ -101,16 +123,17 @@
                 countSmileys that
                 should return the total number of smiling faces.
             </p>
-
-            <code>
-            countSmileys = (arr) => {
-                let result = 0;
-                arr.forEach(item => {
-                if (/[;:][~-]?[)D]/.test(item)) ++result;
-                });
-                return result;
-                };
-        </code>
+            <div class="code-con">
+                <code>
+                    countSmileys = (arr) => {
+                        let result = 0;
+                        arr.forEach(item => {
+                        if (/[;:][~-]?[)D]/.test(item)) ++result;
+                        });
+                        return result;
+                        };
+                </code>
+            </div>
 
             <h2>Experience and projects</h2>
             <ul>
@@ -125,16 +148,18 @@
             </ul>
 
             <h2>Education</h2>
-
-            <li>Kemerovo State University of Culture and Arts, Faculty of Information Technology, specialty - IT
-                analyst,
-                specialization - information systems and networks.</li>
+            <ul>
+                <li>Kemerovo State University of Culture and Arts, Faculty of Information Technology, specialty - IT
+                    analyst,
+                    specialization - information systems and networks.</li>
+            </ul>
         </main>
 
         <footer>
             <a hred="https://github.com/rolling-scopes-school/tasks/tree/master/stage0#неделя-1">RS School. JS/Frontend.
                 Stage0.</a>
-            <li><span>My GitHub:</span> <a href="https://github.com/DanFeliz/">DanFeliz</a></li>
+
+            <span>My GitHub:</span> <a href="https://github.com/DanFeliz/">DanFeliz</a>
             2021
         </footer>
         </wrapper>
